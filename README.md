@@ -20,5 +20,13 @@ samples, guidance on mobile development, and a full API reference.
 ## What is inside app
 
 - First Screen: **Hello Rectangle** in HelloRectangle.dart
+
+![Hello Rectangle screenshot](https://live.staticflickr.com/65535/48738403286_a2070d7fa6_b.jpg)
+
 - **AppBar and List view**
+
+![App Bar and Listview screenshot](https://live.staticflickr.com/65535/48738080003_f223252c0c_b.jpg)
+
 - **Calculator**
+
+![Calculator screenshot](https://live.staticflickr.com/65535/48738403386_4ce7c8f101_b.jpg)
