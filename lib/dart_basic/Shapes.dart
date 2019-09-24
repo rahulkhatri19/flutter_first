@@ -50,5 +50,11 @@ abstract class ShapeCirSq {
     if (type == 'square') return Square(2);
     throw 'Can \'t create $type';
   }
+
   num get area;
+}
+
+class CircleMatrix implements Circle {
+  num area;
+  num radius;
 }
