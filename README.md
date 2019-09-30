@@ -38,7 +38,7 @@ samples, guidance on mobile development, and a full API reference.
 - **Layouts**
  *Based On Udemy Tutorial* :
 
-   * **Grid** : Grid View  ![Grid view screenshot]((https://live.staticflickr.com/)
-   * **List Array** : List View with fix element and with array list length elements  ![List view screenshot]((https://live.staticflickr.com/)
-   * **Stack** : For Overlapping Widget stack is used. ![Overlapping view screenshot]((https://live.staticflickr.com/)
+   * **Grid** : Grid View  ![Grid view screenshot]((https://live.staticflickr.com/ )
+   * **List Array** : List View with fix element and with array list length elements  ![List view screenshot]((https://live.staticflickr.com/ )
+   * **Stack** : For Overlapping Widget stack is used. ![Overlapping view screenshot]((https://live.staticflickr.com/ )
 
