@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 
-class PageApp extends StatelessWidget{
-
+class PageApp extends StatelessWidget {
   final String text;
-  PageApp(this.text)
-
+  PageApp(this.text);
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
@@ -15,6 +13,16 @@ class PageApp extends StatelessWidget{
         child: new Text(text),
       ),
     );
+  }
+
+}
+
+class app extends StatelessWidget{
+
+  @override
+  Widget build(BuildContext context) {
+    // TODO: implement build
+    return null;
   }
 
 }

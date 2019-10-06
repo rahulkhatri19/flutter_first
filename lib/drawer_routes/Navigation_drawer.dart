@@ -42,21 +42,20 @@ class _navigationDrawer extends State<NavigationDrawerApp> {
                   builder: (BuildContext context) => new PageApp('Page 1'))),
             ),
             new ListTile(
-              title: new Text('Page 2'),
-              trailing: new Icon(Icons.print),
-              onTap: () => Navigator.of(context).push(new MaterialPageRoute(
-                  builder: (BuildContext context) => new PageApp('Page 2'))),
-            ),
-            new ListTile(
               title: new Text('App Section'),
               trailing: new Icon(Icons.apps),
+              onTap: () => Navigator.of(context).push(new MaterialPageRoute(
+                  builder: (BuildContext context) =>
+                      new PageApp('App Section'))),
             ),
             new ListTile(
-              title: new Text('Take Photo'),
-              trailing: new Icon(Icons.add_a_photo),
-            ),
+                title: new Text('Take Photo'),
+                trailing: new Icon(Icons.add_a_photo),
+                onTap: () => Navigator.of(context).push(new MaterialPageRoute(
+                    builder: (BuildContext context) =>
+                        new PageApp('Take Photo')))),
             new ListTile(
-              title: new Text('Take Photo'),
+              title: new Text('Close or Logout'),
               trailing: new Icon(Icons.close),
               onTap: () {
                 Navigator.pop(context);

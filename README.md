@@ -21,24 +21,47 @@ samples, guidance on mobile development, and a full API reference.
 
 - First Screen: **Hello Rectangle** in HelloRectangle.dart
 
-![Hello Rectangle screenshot](https://live.staticflickr.com/65535/48738403286_a2070d7fa6_b.jpg)
+![Hello Rectangle screenshot](https://live.staticflickr.com/65535/48850379813_dbb5e86d41.jpg)
 
-- **AppBar and List view**
+- **AppBar**
 
-![App Bar and Listview screenshot](https://live.staticflickr.com/65535/48738080003_f223252c0c_b.jpg)
+  * App Basic : Basic App Bar with icon and opacity.
+  * App Bar List View : App Bar with list view.
+  * Tab Bar : App Tab Bar and Bottom Navigation Bar.
+ 
+![App Bar collage screenshot](https://live.staticflickr.com/65535/48851682977_6796d8aecb.jpg)
 
 - **Calculator**
 
   Based on [Flutter Coding Challenge- Building a Calculator App](https://youtu.be/eVG5DkPF5x8)
-![Calculator screenshot](https://live.staticflickr.com/65535/48738403386_4ce7c8f101_b.jpg)
+  
+![Calculator screenshot](https://live.staticflickr.com/65535/48850926372_66e528ae92.jpg)
 
 - **Dart Basic** :
 [Dart Basic for Java Developer Google CodeLab](https://codelabs.developers.google.com/codelabs/from-java-to-dart/index.html)
 
+  * Functional programming, Interface, Constructor, Optional parameter, Abstract class.
+
 - **Layouts**
  *Based On Udemy Tutorial* :
 
-   * **Grid** : Grid View  ![Grid view screenshot]((https://live.staticflickr.com/ )
-   * **List Array** : List View with fix element and with array list length elements  ![List view screenshot]((https://live.staticflickr.com/ )
-   * **Stack** : For Overlapping Widget stack is used. ![Overlapping view screenshot]((https://live.staticflickr.com/ )
+   * Grid : Grid View 
+   * List Array : List View with fix element and with array list length elements.
+   * Stack : For Overlapping Widget stack is used.
+    
+    ![Layout Collage screenshot](https://live.staticflickr.com/65535/48851683277_1816679913.jpg)
+    
+- **Input Selection**
+
+   *Basic Input Widget* :
+   
+   * Button, Checkbox, RadioButton, Slider, Switch, TextField
+   
+    ![Input Collage screenshot](https://live.staticflickr.com/65535/48851136683_a6cff14547.jpg)
+    
+- **Drawer Route**
+
+   *Navigation Drawer Widget* : Navigation drawer, diverting to demo page.
+   
+    ![Input Collage screenshot](https://live.staticflickr.com/65535/48851683107_9784f4ce32.jpg)
 
