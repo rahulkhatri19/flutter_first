@@ -64,4 +64,25 @@ samples, guidance on mobile development, and a full API reference.
    *Navigation Drawer Widget* : Navigation drawer, diverting to demo page.
    
     ![Input Collage screenshot](https://live.staticflickr.com/65535/48851683107_9784f4ce32.jpg)
+    
+- **Navigation**
+
+  *Notification widgets* : Alert dialog, Simple dialog, SnackBar.
+<table>
+  <tr>
+    <td>
+      <img src="screenshots/notification_alert_dialog.png" width=300 />
+    </td>
+    <td>
+      <img src="screenshots/notification_simple_dialog.png" width=300 />
+    </td>
+    <td>
+      <img src="screenshots/notification_snack_bar.png" width=300 />
+    </td>
+  </tr>
+</table>
+
+- **Custom Widget**
+
+   ![Custom Widget screenshot](screenshots/widget_custom.png)
 
