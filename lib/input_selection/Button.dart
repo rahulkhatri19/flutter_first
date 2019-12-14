@@ -36,9 +36,38 @@ class _button extends State<ButtonApp> {
                 buttonMethod('Flat Button was Pressed');
               },
               child: new Text('Flat Button')),
-          new Text(_text)
+          new IconButton(icon: new Icon(Icons.add_shopping_cart) , onPressed: (){
+            buttonMethod('Icon Button was Pressed');
+          }),
+          new Text(_text),
+          new Expanded(
+              child: new Align(
+                  alignment: Alignment.bottomLeft,
+                  child: new Container(
+//                    decoration: BoxDecoration(color: Colors.lightBlue),
+                    margin: EdgeInsets.only(left: 16, bottom: 16),
+                    child: new FloatingActionButton(
+                        onPressed: () {
+                          buttonMethod("FloatingActionButton was Pressed");
+                        },
+                        child: Icon(Icons.add_comment),
+                        backgroundColor: Colors.deepPurple),
+                  ))),
         ],
       ),
+      /*  floatingActionButton: FloatingActionButton(
+          onPressed: () {
+            buttonMethod("FloatingActionButton was Pressed");
+          },
+          child: Icon(Icons.add_comment),
+          backgroundColor: Colors.deepPurple),*/
+      floatingActionButton: FloatingActionButton.extended(
+          onPressed: () {
+            buttonMethod("Extended FloatingActionButton was Pressed");
+          },
+          label: new Text("Approve"),
+          icon: Icon(Icons.thumb_up),
+          backgroundColor: Colors.deepOrange),
     );
   }
 }
