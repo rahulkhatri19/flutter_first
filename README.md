@@ -57,7 +57,21 @@ samples, guidance on mobile development, and a full API reference.
    
    * Button, Checkbox, RadioButton, Slider, Switch, TextField
    
-    ![Input Collage screenshot](https://live.staticflickr.com/65535/48851136683_a6cff14547.jpg)
+<table>
+  <tr>
+    <td>
+      <img src="screenshots/input_button.png" width=250 />
+    </td>
+    <td>
+      <img src="screenshots/input_slider.png" width=250 />
+    </td>
+    <td>
+      <img src="screenshots/input_image.png" width=250 />
+    </td>
+  </tr>
+</table>
+   
+<!--   ![Input Collage screenshot](https://live.staticflickr.com/65535/48851136683_a6cff14547.jpg)-->
     
 - **Drawer Route**
 
