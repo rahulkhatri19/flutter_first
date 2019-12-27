@@ -55,7 +55,7 @@ samples, guidance on mobile development, and a full API reference.
 
    *Basic Input Widget* :
    
-   * Button, Checkbox, RadioButton, Slider, Switch, TextField
+   * Button, Checkbox, RadioButton, Slider, Switch, TextField, Chip, Image
    
 <table>
   <tr>
@@ -67,6 +67,14 @@ samples, guidance on mobile development, and a full API reference.
     </td>
     <td>
       <img src="screenshots/input_image.png" width=250 />
+    </td>
+  </tr>
+</table>  
+
+<table>
+  <tr>
+    <td>
+      <img src="screenshots/input_chip.png" width=250 />
     </td>
   </tr>
 </table>

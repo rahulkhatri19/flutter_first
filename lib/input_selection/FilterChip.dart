@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// code from:  https://github.com/whatsupcoders/Flutter-Chip-Widget/tree/master/lib
 void main(){
   runApp(new MaterialApp(home: InputChipDisplay()));
 }

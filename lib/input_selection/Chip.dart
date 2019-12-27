@@ -14,14 +14,10 @@ class _chip extends State<ChipApp> {
   String selectedChoice = "";
   final GlobalKey<ScaffoldState> sKey = new GlobalKey<ScaffoldState>();
 
-  void snackMethod(String value) {
-    sKey.currentState.showSnackBar(
-        new SnackBar(content: new Text(value)));
-  }
-
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
+      key: sKey,
       appBar: new AppBar(
         title: new Text("Chip App"),
       ),
@@ -170,7 +166,8 @@ class _chip extends State<ChipApp> {
                 fontWeight: FontWeight.bold),
             label: Text('Set Alarm'),
             onPressed: () {
-              snackMethod("Alarm Set");
+              sKey.currentState.showSnackBar(
+                  SnackBar(content: Text("Tell me time for Alarm")));
             },
           ),
           Divider(
@@ -190,29 +187,30 @@ class _chip extends State<ChipApp> {
               ),
             ),
           ),
-      InputChip(
-        avatar: CircleAvatar(
-          backgroundColor: Colors.blueGrey,
-          child: Container(
-            decoration: BoxDecoration(
-                shape: BoxShape.circle,
-
-                image: DecorationImage(
-                  fit:BoxFit.fill,
-                  image: AssetImage('assets/google_play_100.png'),
-                )
+          InputChip(
+            avatar: CircleAvatar(
+              backgroundColor: Colors.blueGrey,
+              child: Container(
+                decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    image: DecorationImage(
+                      fit: BoxFit.fill,
+                      image: AssetImage('assets/google_play_100.png'),
+                    )),
+              ),
             ),
-          ),
-        ),
-        label: Text("Google Play"),
-        labelStyle: TextStyle(color: Colors.black,fontSize: 14.0,fontWeight: FontWeight.bold),
-        onPressed: (){
-print("Hi I was Pressed");
-        },
-        onDeleted: (){
-print("You deleted me");
-        },
-      )
+            label: Text("Google Play"),
+            labelStyle: TextStyle(
+                color: Colors.black,
+                fontSize: 14.0,
+                fontWeight: FontWeight.bold),
+            onPressed: () {
+              print("Hi I was Pressed");
+            },
+            onDeleted: () {
+              print("You deleted me");
+            },
+          )
         ],
       ),
       /* new Center(
