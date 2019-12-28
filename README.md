@@ -107,4 +107,19 @@ samples, guidance on mobile development, and a full API reference.
 - **Custom Widget**
 
    ![Custom Widget screenshot](screenshots/widget_custom.png)
+   
+- **Sign Up**
+
+ Sign up Page with Image, Text, Text Field, Radio Button, Input Chip, Slider, Switch, Checkbox, Raised Button, SnackBar.
+
+<table>
+  <tr>
+    <td>
+      <img src="screenshots/signup.png" width=300 />
+    </td>
+ </tr>
+</table>
+
+   
+   
 
